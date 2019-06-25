@@ -11,15 +11,15 @@ To learn more about React events, we are going to build an application that will
 1.  Hide and show memes when the meme title is clicked
 2.  Add a meme to our list when a form is submitted
 
-The images should start as hidden
-![notClicked](images/notClicked.png)
+### The images should start as hidden
+![notClicked](https://github.com/wdi-infinity/lesson-week_05-day_04-react-events/raw/master/images/notClicked.png)
 
-And show when a user clicks on the title
-![clicked](images/clicked.png)
+### And show when a user clicks on the title show the meme
+![clicked](https://github.com/wdi-infinity/lesson-week_05-day_04-react-events/raw/master/images/clicked.png)
 
-Let's plan out our steps!
+## Let's plan out our steps!
 
-Set Up Application
+### Set Up Application
 
 1.  Use create react app to generate a new react application
 2.  Start the application and view on localhost
@@ -175,7 +175,7 @@ Set Up Application
 4.  In render, iterate through memes array and display title and meme as image.
 5.  Move title and image tag into a Meme component and pass each meme object into the Meme component as a prop.
 
-Add Click Event
+### Add Click Event
 
 6.  Create a CSS class named `hidden` and class named `show`.
 7.  Add `memeStyle` to Meme component state and default the value to `hidden`.
@@ -183,7 +183,7 @@ Add Click Event
 9.  Add click event to meme title.
 10.  Make click event update state of `memeStyle` to `hidden` or `show`.
 
-Add Submit Event
+### Add Submit Event
 
 11.  Add form and inputs to render
 12.  Add form object to state
