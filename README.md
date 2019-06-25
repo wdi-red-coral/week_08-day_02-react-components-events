@@ -12,10 +12,11 @@ To learn more about React events, we are going to build an application that will
 2.  Add a meme to our list when a form is submitted
 
 ### The images should start as hidden
-![notClicked](https://github.com/wdi-infinity/lesson-week_05-day_04-react-events/raw/master/images/notClicked.png)
+<img src="https://github.com/wdi-infinity/lesson-week_05-day_04-react-events/raw/master/images/notClicked.png" width="400px" height="auto" />
+
 
 ### And show when a user clicks on the title show the meme
-![clicked](https://github.com/wdi-infinity/lesson-week_05-day_04-react-events/raw/master/images/clicked.png)
+<img src="https://github.com/wdi-infinity/lesson-week_05-day_04-react-events/raw/master/images/clicked.png" width="400px" height="auto" />
 
 ## Let's plan out our steps!
 
