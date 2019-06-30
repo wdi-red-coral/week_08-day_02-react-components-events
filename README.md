@@ -216,7 +216,11 @@ To learn more about React events, we are going to build an application that will
 -  Add memes array to a js file
 -  Add memes array to the application's state
 -  In render, iterate through memes array and display title and meme as image.
--  Move title and image tag into a Meme component and pass each meme object into the Meme component as a prop.
+
+### Create Meme Componet
+-  Move title and image tag into a Meme component 
+-  Pass each meme id, title, and image into the Meme component as a prop.
+-  Use props in Meme component
 
 ### Hide/Show Meme
 
