@@ -214,19 +214,24 @@ To learn more about React events, we are going to build an application that will
 ] 
 ```
 
-### Add Click Event
+### Hide/Show Meme
 
-6.  Create a CSS class named `hidden` and class named `show`.
-7.  Add `memeStyle` to Meme component state and default the value to `hidden`.
-8.  Apply `memeStyle` from state as `className` to `img` tag.
-9.  Add click event to meme title.
-10.  Make click event update state of `memeStyle` to `hidden` or `show`.
+-  Add state for visible to be false 
+-  Use state for hidden to only show meme if state for visible is true.
+-  Add click event to meme title that toggles the state of visible between true and false
+-  Make click event update state of `memeStyle` to `hidden` or `show`.
 
-### Add Submit Event
+### Delete Meme
 
-11.  Add form and inputs to render
-12.  Add form object to state
-13.  Update inputs `name` attribute to match form object
-14.  Bind inputs `value` to form object property
-15.  Write `onChange` function to update form object property
-16.  Write `onSubmit` function to add form object to meme array in state and reset form object to clear form. 
+-  Add deleteMeme function to App that removes meme by ID
+-  Pass deleteMeme function and meme ID to Meme componenet
+-  Add button with click event to deleteMeme
+
+### Add New Meme
+
+-  Add form and inputs to render
+-  Add form object to state
+-  Update inputs `name` attribute to match form object
+-  Bind inputs `value` to form object property
+-  Write `onChange` function to update form object property
+-  Write `onSubmit` function to add form object to meme array in state and reset form object to clear form. 
