@@ -20,15 +20,7 @@ To learn more about React events, we are going to build an application that will
 
 ## Let's plan out our steps!
 
-### Set Up Application
-
-1.  Use create react app to generate a new react application
-2.  Start the application and view on localhost
-
-### Add memes array to state
-1. Add memes array to the application's state
-2.  In render, iterate through memes array and display title and meme as image.
-3.  Move title and image tag into a Meme component and pass each meme object into the Meme component as a prop.
+### Memes Data
 ```js
 [
   {
@@ -213,6 +205,18 @@ To learn more about React events, we are going to build an application that will
   }
 ] 
 ```
+
+### Set Up Application
+
+1.  Use create react app to generate a new react application
+2.  Start the application and view on localhost
+
+### Add memes array to state
+
+-  Add memes array to a js file
+-  Add memes array to the application's state
+-  In render, iterate through memes array and display title and meme as image.
+-  Move title and image tag into a Meme component and pass each meme object into the Meme component as a prop.
 
 ### Hide/Show Meme
 
