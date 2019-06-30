@@ -211,13 +211,13 @@ To learn more about React events, we are going to build an application that will
 1.  Use create react app to generate a new react application
 2.  Start the application and view on localhost
 
-### Add memes array to state
+### Add Memes to State
 
 -  Add memes array to a js file
 -  Add memes array to the application's state
 -  In render, iterate through memes array and display title and meme as image.
 
-### Create Meme Componet
+### Create Meme Component
 -  Move title and image tag into a Meme component 
 -  Pass each meme id, title, and image into the Meme component as a prop.
 -  Use props in Meme component
