@@ -229,6 +229,12 @@ To learn more about React events, we are going to build an application that will
 -  Add click event to meme title that toggles the state of visible between true and false
 -  Make click event update state of `memeStyle` to `hidden` or `show`.
 
+### Change Page Theme
+
+-  Create a class that will change the font, font color, and background of the meme container and form
+-  Add a theme key to the state that will make the class be applied or not applied based on if it is true or false
+-  Add a button that will change the state of the theme
+
 ### Delete Meme
 
 -  Add deleteMeme function to App that removes meme by ID
