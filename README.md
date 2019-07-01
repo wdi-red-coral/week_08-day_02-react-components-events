@@ -235,6 +235,12 @@ To learn more about React events, we are going to build an application that will
 -  Add a theme key to the state that will make the class be applied or not applied based on if it is true or false
 -  Add a button that will change the state of the theme
 
+### Delete All Memes
+
+- Add deleteMemes function to App that makes memes state an empty array
+- Add a button with click even to deleteMemes
+- If there are no memes, show a message "There are no memes"
+
 ### Delete Meme
 
 -  Add deleteMeme function to App that removes meme by ID
