@@ -249,3 +249,14 @@ To learn more about React events, we are going to build an application that will
 -  Bind inputs `value` to form object property
 -  Write `onChange` function to update form object property
 -  Write `onSubmit` function to add form object to meme array in state and reset form object to clear form. 
+
+
+### Sign In
+
+-  Add a form and inputs for signing in with email and password
+-  Add form object to state
+-  Update inputs `name` attribute to match form object
+-  Bind inputs `value` to form object property
+-  Write `onChange` function to update form object property
+-  Add state of signedInEmail that starts as null
+-  Write `onSubmit` function to add form object to signedIn state and only show memes and meme form if they are signed in
